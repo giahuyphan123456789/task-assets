@@ -1,0 +1,21 @@
+id,title,assignee,category,status,priority,dueDate,description
+TSK-001,Thiết kế wireframe màn hình Dashboard,Nguyễn Văn An,Design,Done,High,2026-08-10,Hoàn thiện wireframe cho toàn bộ luồng Dashboard trên Figma.
+TSK-002,Thiết lập dự án Supabase (Auth + PostgreSQL),Trần Thị Bình,Backend,Done,High,2026-08-12,"Khởi tạo project Supabase, cấu hình bảng tasks và chính sách RLS."
+TSK-003,Xây dựng component TaskTable,Lê Minh Châu,Frontend,In Progress,High,2026-09-28,Bảng hiển thị danh sách công việc kèm badge trạng thái và mức ưu tiên.
+TSK-004,Tích hợp bộ lọc trạng thái & tìm kiếm,Phạm Quốc Duy,Frontend,In Progress,Medium,2026-09-29,Thêm thanh tìm kiếm theo tên và lọc theo trạng thái công việc.
+TSK-005,Viết Form Modal thêm/xóa Task,Hoàng Thu Hà,Frontend,To-do,High,2026-10-01,"Modal cho phép thêm mới và xóa task, có validate dữ liệu đầu vào."
+TSK-006,Thiết kế Summary Cards thống kê,Đỗ Anh Tuấn,Frontend,To-do,Medium,2026-10-02,"3 thẻ tổng quan: Tổng số công việc, Đã hoàn thành, Đang xử lý."
+TSK-007,Kiểm thử luồng đăng nhập,Vũ Thị Kim Ngân,QA/Testing,To-do,High,2026-10-03,Viết test case cho đăng nhập sai email/mật khẩu và đăng nhập thành công.
+TSK-008,Cấu hình CI/CD triển khai Vercel,Trần Thị Bình,DevOps,To-do,Medium,2026-10-04,Kết nối GitHub repo với Vercel để auto-deploy khi push lên nhánh main.
+TSK-009,Mua bổ sung 5 laptop Dell Latitude 5440,Nguyễn Văn An,Asset,In Progress,Medium,2026-10-10,Đặt hàng laptop cho nhân viên mới của phòng kỹ thuật.
+TSK-010,Kiểm kê tài sản phòng Server,Lê Minh Châu,Asset,Done,Low,2026-08-20,Rà soát và dán nhãn QR toàn bộ thiết bị trong phòng server.
+TSK-011,Gia hạn license phần mềm Adobe Creative Cloud,Hoàng Thu Hà,Asset,To-do,High,2026-10-05,"License hết hạn cuối tháng 10, cần gia hạn cho 8 tài khoản."
+TSK-012,Viết tài liệu API cho module Task,Phạm Quốc Duy,Backend,In Progress,Low,2026-10-08,Swagger/README mô tả các endpoint CRUD của bảng tasks.
+TSK-013,Tối ưu hiệu năng truy vấn PostgreSQL,Đỗ Anh Tuấn,Backend,To-do,Medium,2026-10-12,Thêm index cho cột status và priority để tăng tốc độ lọc.
+TSK-014,Thiết kế responsive cho mobile,Vũ Thị Kim Ngân,Frontend,To-do,Medium,2026-10-09,Đảm bảo Dashboard hiển thị tốt trên màn hình dưới 768px.
+TSK-015,Cập nhật chính sách bảo mật RLS Supabase,Trần Thị Bình,Backend,In Progress,High,2026-10-06,Đảm bảo user chỉ truy cập được task của chính họ.
+TSK-016,Bảo trì định kỳ máy chủ nội bộ,Nguyễn Văn An,Asset,Done,Low,2026-09-01,"Vệ sinh, cập nhật firmware cho 3 máy chủ vật lý tại văn phòng."
+TSK-017,Thiết kế biểu tượng & bộ nhận diện UI,Lê Minh Châu,Design,Done,Low,2026-08-15,Bộ icon dùng Lucide React đồng bộ trong toàn ứng dụng.
+TSK-018,Viết Unit test cho AuthContext,Hoàng Thu Hà,QA/Testing,To-do,Medium,2026-10-11,Kiểm thử các case login/logout và lưu trạng thái phiên.
+TSK-019,Chuẩn bị kịch bản Demo cho hội đồng chấm điểm,Phạm Quốc Duy,Documentation,In Progress,High,2026-09-30,"Soạn kịch bản demo end-to-end: đăng nhập, thêm task, lọc, xóa."
+TSK-020,Rà soát và hoàn thiện README.md nộp bài,Đỗ Anh Tuấn,Documentation,To-do,High,2026-09-30,"Bổ sung sơ đồ kiến trúc, test case và hướng dẫn triển khai."

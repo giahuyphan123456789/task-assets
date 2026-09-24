@@ -30,6 +30,6 @@ create policy "Users can update own tasks"
 
 create policy "Users can delete own tasks"
   on public.tasks for delete
-  using (auth.uid() = user_id);
+  using (autqh.uid() = user_id);
 
 -- (Tuỳ chọn) import nhanh dữ liệu mẫu từ src/data/mockData.json qua Table Editor > Insert > Import CSV/JSON
