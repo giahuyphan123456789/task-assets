@@ -189,3 +189,5 @@ git push -u origin main
 | Fallback local | LocalStorage (Mock Service) |
 | Hosting/CDN | Vercel |
 | Kiến trúc | Serverless / BaaS |
+#   F i n a l - t a s k - a s s e t s  
+ 
