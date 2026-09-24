@@ -1,0 +1,202 @@
+[
+  {
+    "id": "TSK-001",
+    "title": "Thiết kế wireframe màn hình Dashboard",
+    "assignee": "Nguyễn Văn An",
+    "category": "Design",
+    "status": "Done",
+    "priority": "High",
+    "dueDate": "2026-08-10",
+    "description": "Hoàn thiện wireframe cho toàn bộ luồng Dashboard trên Figma."
+  },
+  {
+    "id": "TSK-002",
+    "title": "Thiết lập dự án Supabase (Auth + PostgreSQL)",
+    "assignee": "Trần Thị Bình",
+    "category": "Backend",
+    "status": "Done",
+    "priority": "High",
+    "dueDate": "2026-08-12",
+    "description": "Khởi tạo project Supabase, cấu hình bảng tasks và chính sách RLS."
+  },
+  {
+    "id": "TSK-003",
+    "title": "Xây dựng component TaskTable",
+    "assignee": "Lê Minh Châu",
+    "category": "Frontend",
+    "status": "In Progress",
+    "priority": "High",
+    "dueDate": "2026-09-28",
+    "description": "Bảng hiển thị danh sách công việc kèm badge trạng thái và mức ưu tiên."
+  },
+  {
+    "id": "TSK-004",
+    "title": "Tích hợp bộ lọc trạng thái & tìm kiếm",
+    "assignee": "Phạm Quốc Duy",
+    "category": "Frontend",
+    "status": "In Progress",
+    "priority": "Medium",
+    "dueDate": "2026-09-29",
+    "description": "Thêm thanh tìm kiếm theo tên và lọc theo trạng thái công việc."
+  },
+  {
+    "id": "TSK-005",
+    "title": "Viết Form Modal thêm/xóa Task",
+    "assignee": "Hoàng Thu Hà",
+    "category": "Frontend",
+    "status": "To-do",
+    "priority": "High",
+    "dueDate": "2026-10-01",
+    "description": "Modal cho phép thêm mới và xóa task, có validate dữ liệu đầu vào."
+  },
+  {
+    "id": "TSK-006",
+    "title": "Thiết kế Summary Cards thống kê",
+    "assignee": "Đỗ Anh Tuấn",
+    "category": "Frontend",
+    "status": "To-do",
+    "priority": "Medium",
+    "dueDate": "2026-10-02",
+    "description": "3 thẻ tổng quan: Tổng số công việc, Đã hoàn thành, Đang xử lý."
+  },
+  {
+    "id": "TSK-007",
+    "title": "Kiểm thử luồng đăng nhập",
+    "assignee": "Vũ Thị Kim Ngân",
+    "category": "QA/Testing",
+    "status": "To-do",
+    "priority": "High",
+    "dueDate": "2026-10-03",
+    "description": "Viết test case cho đăng nhập sai email/mật khẩu và đăng nhập thành công."
+  },
+  {
+    "id": "TSK-008",
+    "title": "Cấu hình CI/CD triển khai Vercel",
+    "assignee": "Trần Thị Bình",
+    "category": "DevOps",
+    "status": "To-do",
+    "priority": "Medium",
+    "dueDate": "2026-10-04",
+    "description": "Kết nối GitHub repo với Vercel để auto-deploy khi push lên nhánh main."
+  },
+  {
+    "id": "TSK-009",
+    "title": "Mua bổ sung 5 laptop Dell Latitude 5440",
+    "assignee": "Nguyễn Văn An",
+    "category": "Asset",
+    "status": "In Progress",
+    "priority": "Medium",
+    "dueDate": "2026-10-10",
+    "description": "Đặt hàng laptop cho nhân viên mới của phòng kỹ thuật."
+  },
+  {
+    "id": "TSK-010",
+    "title": "Kiểm kê tài sản phòng Server",
+    "assignee": "Lê Minh Châu",
+    "category": "Asset",
+    "status": "Done",
+    "priority": "Low",
+    "dueDate": "2026-08-20",
+    "description": "Rà soát và dán nhãn QR toàn bộ thiết bị trong phòng server."
+  },
+  {
+    "id": "TSK-011",
+    "title": "Gia hạn license phần mềm Adobe Creative Cloud",
+    "assignee": "Hoàng Thu Hà",
+    "category": "Asset",
+    "status": "To-do",
+    "priority": "High",
+    "dueDate": "2026-10-05",
+    "description": "License hết hạn cuối tháng 10, cần gia hạn cho 8 tài khoản."
+  },
+  {
+    "id": "TSK-012",
+    "title": "Viết tài liệu API cho module Task",
+    "assignee": "Phạm Quốc Duy",
+    "category": "Backend",
+    "status": "In Progress",
+    "priority": "Low",
+    "dueDate": "2026-10-08",
+    "description": "Swagger/README mô tả các endpoint CRUD của bảng tasks."
+  },
+  {
+    "id": "TSK-013",
+    "title": "Tối ưu hiệu năng truy vấn PostgreSQL",
+    "assignee": "Đỗ Anh Tuấn",
+    "category": "Backend",
+    "status": "To-do",
+    "priority": "Medium",
+    "dueDate": "2026-10-12",
+    "description": "Thêm index cho cột status và priority để tăng tốc độ lọc."
+  },
+  {
+    "id": "TSK-014",
+    "title": "Thiết kế responsive cho mobile",
+    "assignee": "Vũ Thị Kim Ngân",
+    "category": "Frontend",
+    "status": "To-do",
+    "priority": "Medium",
+    "dueDate": "2026-10-09",
+    "description": "Đảm bảo Dashboard hiển thị tốt trên màn hình dưới 768px."
+  },
+  {
+    "id": "TSK-015",
+    "title": "Cập nhật chính sách bảo mật RLS Supabase",
+    "assignee": "Trần Thị Bình",
+    "category": "Backend",
+    "status": "In Progress",
+    "priority": "High",
+    "dueDate": "2026-10-06",
+    "description": "Đảm bảo user chỉ truy cập được task của chính họ."
+  },
+  {
+    "id": "TSK-016",
+    "title": "Bảo trì định kỳ máy chủ nội bộ",
+    "assignee": "Nguyễn Văn An",
+    "category": "Asset",
+    "status": "Done",
+    "priority": "Low",
+    "dueDate": "2026-09-01",
+    "description": "Vệ sinh, cập nhật firmware cho 3 máy chủ vật lý tại văn phòng."
+  },
+  {
+    "id": "TSK-017",
+    "title": "Thiết kế biểu tượng & bộ nhận diện UI",
+    "assignee": "Lê Minh Châu",
+    "category": "Design",
+    "status": "Done",
+    "priority": "Low",
+    "dueDate": "2026-08-15",
+    "description": "Bộ icon dùng Lucide React đồng bộ trong toàn ứng dụng."
+  },
+  {
+    "id": "TSK-018",
+    "title": "Viết Unit test cho AuthContext",
+    "assignee": "Hoàng Thu Hà",
+    "category": "QA/Testing",
+    "status": "To-do",
+    "priority": "Medium",
+    "dueDate": "2026-10-11",
+    "description": "Kiểm thử các case login/logout và lưu trạng thái phiên."
+  },
+  {
+    "id": "TSK-019",
+    "title": "Chuẩn bị kịch bản Demo cho hội đồng chấm điểm",
+    "assignee": "Phạm Quốc Duy",
+    "category": "Documentation",
+    "status": "In Progress",
+    "priority": "High",
+    "dueDate": "2026-09-30",
+    "description": "Soạn kịch bản demo end-to-end: đăng nhập, thêm task, lọc, xóa."
+  },
+  {
+    "id": "TSK-020",
+    "title": "Rà soát và hoàn thiện README.md nộp bài",
+    "assignee": "Đỗ Anh Tuấn",
+    "category": "Documentation",
+    "status": "To-do",
+    "priority": "High",
+    "dueDate": "2026-09-30",
+    "description": "Bổ sung sơ đồ kiến trúc, test case và hướng dẫn triển khai."
+  }
+]
