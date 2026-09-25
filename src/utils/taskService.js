@@ -18,16 +18,20 @@ export async function fetchTasks() {
 }
 
 export async function createTask(task) {
+  // id là primary key kiểu text và KHÔNG có giá trị mặc định trên Supabase,
+  // nên phải tự sinh id ở phía client trước khi insert, nếu không insert sẽ
+  // bị từ chối do vi phạm ràng buộc NOT NULL/primary key.
+  const payload = { ...task, id: task.id || `TSK-${String(Date.now()).slice(-6)}` }
+
   if (isSupabaseConfigured) {
-    const { data, error } = await supabase.from('tasks').insert([task]).select()
+    const { data, error } = await supabase.from('tasks').insert([payload]).select()
     if (error) throw error
     return data[0]
   }
   const tasks = loadTasks(seedData)
-  const newTask = { ...task, id: task.id || `TSK-${String(Date.now()).slice(-6)}` }
-  const updated = [newTask, ...tasks]
+  const updated = [payload, ...tasks]
   saveTasks(updated)
-  return newTask
+  return payload
 }
 
 export async function deleteTask(id) {
